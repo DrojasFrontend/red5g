@@ -1,0 +1,21 @@
+:root {
+  /* Breackpoint */
+  --table-up: 1024px;
+
+  /* Color */
+  --red: hsl(0, 100%, 74%)
+  --green: hsl(154, 59%, 51%)
+  --blue: hsl(248, 32%, 49%)
+  --dark-blue: hsl(249, 10%, 26%)
+  --grayish-blue: hsl(246, 25%, 77%)
+
+  /* Font Size */
+  --default: 16px;
+
+   /* Font Family */
+  --font-base: "Poppins"
+}
+
+body {
+  font-family: var(--font-base), sans-serif;
+}
