@@ -202,6 +202,7 @@ input[type="submit"] {
   padding: 15px;
   border: 1px solid var(--gray);
   border-radius: var(--br-5);
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -429,4 +430,36 @@ strong {
   color: var(--red);
   font-weight: var(--w-700);
   text-decoration: none;
+}
+
+label.error {
+  position: relative;
+  display: block;
+  font-style: italic;
+  font-size: 10px;
+  color: var(--red);
+  text-align: right;
+  font-weight: var(--w-500);
+}
+
+label.error:after,
+label.error:after,
+label.error:after {
+  content: "";
+  position: absolute;
+  top: -47px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  background: url("../images/icon-error.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1024px) {
+  label.error:after,
+  label.error:after,
+  label.error:after {
+    top: -54px;
+  }
 }
